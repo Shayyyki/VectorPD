@@ -2,10 +2,10 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2410.04182-b31b1b.svg)](https://arxiv.org/abs/2410.04182)
 
-## Introduction
 ![](repo_images/style.jpg?raw=true)
 Editing the brush style on SVGs. Our method generates portrait sketches in vector form, which can be easily used by designers for further editing.
 
+## Introduction
 <br>
 We define a portrait sketch as a set of Bézier curves and use a differentiable rasterizer ([diffvg](https://github.com/BachiLi/diffvg)) to optimize the parameters of the curves directly with respect to a CLIP-based loss, a Vgg-based loss, and a Crop-based loss. 
 
